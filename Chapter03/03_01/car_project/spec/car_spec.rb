@@ -3,7 +3,7 @@
 require 'car'
 
 describe 'Car' do
-  describe 'attributes' do
+  xdescribe 'attributes' do
     it 'allows reading and writing for :make' do
       car = Car.new
       car.make = 'Dacia'
