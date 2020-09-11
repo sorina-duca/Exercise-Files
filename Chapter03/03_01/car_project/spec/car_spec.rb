@@ -9,6 +9,8 @@ describe 'Car' do
       car.make = 'Dacia'
       expect(car.make).to eq('Dacia')
     end
+
+    it 'allows writing for :doors'
   end
 
   describe '.colors' do
