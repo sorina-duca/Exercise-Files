@@ -23,7 +23,7 @@ class Restaurant
     !@@file.nil? ? @@file.read : []
   end
 
-  def initialize(options={})
+  def initialize(options = {})
     @name    = options[:name]    || ''
     @cuisine = options[:cuisine] || 'unknown'
     @price   = options[:price]
